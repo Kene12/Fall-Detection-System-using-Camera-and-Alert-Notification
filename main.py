@@ -15,7 +15,7 @@ from firebase_admin import credentials, firestore, storage
 
 # ตั้งค่า Firebase
 current_dir = os.path.dirname(os.path.abspath(__file__))
-cred_path = os.path.join(current_dir, "firebase_credentials", "test01-project-c4cc5-firebase-adminsdk-i1si8-2cd19701fa.json")
+cred_path = os.path.join(current_dir, "firebase_credentials", "test01-project-c4cc5-firebase-adminsdk-i1si8-8a69f1355f.json")
 cred = credentials.Certificate(cred_path)
 firebase_admin.initialize_app(cred, {'storageBucket': 'test01-project-c4cc5.appspot.com'})
 db = firestore.client()
