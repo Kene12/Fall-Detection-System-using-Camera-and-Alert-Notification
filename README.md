@@ -8,7 +8,7 @@
 ### 🖥️ **ติดตั้งบน Windows**
 1. **ดาวน์โหลดโค้ดโปรเจ็กต์**
    ```sh
-   git clone https://github.com/your-repo-name/fall-detection.git
+   git clone https://github.com/Kene12/fall-detection.git
    cd fall-detection
    ```
 2. **แก้ไขค่า RTSP ใน `main.py`**
@@ -37,7 +37,7 @@
    ```
 2. **โคลนโปรเจ็กต์จาก GitHub**
    ```sh
-   git clone https://github.com/your-repo-name/fall-detection.git
+   git clone https://github.com/Kene12/fall-detection.git
    cd fall-detection
    ```
 3. **แก้ไขค่า RTSP ใน `main.py`**
