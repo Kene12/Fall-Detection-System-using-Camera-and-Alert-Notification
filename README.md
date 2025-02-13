@@ -5,11 +5,16 @@
 ## 🔧 การติดตั้ง
 รองรับการติดตั้งบน **Jetson Nano (Ubuntu/Linux)** และ **Windows**
 
+## 📦 อุปกรณ์ที่ต้องใช้
+- **กล้อง Webcam** หรือ **กล้อง IP Camera** (รองรับ RTSP)
+- **Jetson Nano** *(ถ้ามี)* หรือ **คอมพิวเตอร์** ที่รองรับ Python
+- **หน้าจอคอมพิวเตอร์** สำหรับดูผลลัพธ์การตรวจจับ
+
 ### 🖥️ **ติดตั้งบน Windows**
 1. **ดาวน์โหลดโค้ดโปรเจ็กต์**
    ```sh
-   git clone https://github.com/Kene12/fall-detection.git
-   cd fall-detection
+   git clone https://github.com/Kene12/Fall-Detection-System-using-Camera-and-Alert-Notification.git
+   cd Fall-Detection-System-using-Camera-and-Alert-Notification
    ```
 2. **แก้ไขค่า RTSP ใน `main.py`**
    เปิดไฟล์ `main.py` และแก้ไขบรรทัดที่เกี่ยวข้องกับ RTSP URL:
@@ -37,8 +42,8 @@
    ```
 2. **โคลนโปรเจ็กต์จาก GitHub**
    ```sh
-   git clone https://github.com/Kene12/fall-detection.git
-   cd fall-detection
+   git clone https://github.com/Kene12/Fall-Detection-System-using-Camera-and-Alert-Notification.git
+   cd Fall-Detection-System-using-Camera-and-Alert-Notification
    ```
 3. **แก้ไขค่า RTSP ใน `main.py`**
    เปิดไฟล์ `main.py` และแก้ไขบรรทัดที่เกี่ยวข้องกับ RTSP URL:
